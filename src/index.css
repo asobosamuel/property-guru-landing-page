@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-white px-5 py-3 rounded-md text-[#58A9E4] text-lg font-light font-sans text-nowrap;
+  }
+}
